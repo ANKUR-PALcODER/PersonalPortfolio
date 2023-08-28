@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'General Sans';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    /* background-color: black; */
+}
+#main{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: black;
+}
+#mouse{
+    position: relative;
+    opacity: 0;
+    z-index: 9999999;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    transition: all cubic-bezier(0.19,1,0.22,1) 0.5s;
+}
+#landingPage{
+    /* width: 100%; */
+    position: relative;
+    height: 100vh;
+    background-color: black;
+}
+#navbar{
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+#heading{
+    margin-top: 40px;
+}
+
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.boundingelem{
+    transform: translateY(100%);
+} 
+#heading h1{
+    margin-left: 30px;
+    opacity: 0.7;
+    line-height: 1;
+    /* font-family: 'General Sans Medium'; */
+    font-weight: 900;
+    font-size: 10vw;
+    text-transform: uppercase;
+}
+#heading #secondh1{
+    margin-left: 150px;
+}
+#heading #headingsecondgpart{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+}
+#heading #headingsecondgpart h5{
+    text-align: right;
+}
+
+#smallheading{
+    margin-top: 100px;
+    padding-right: 50px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#smallheading h5{
+    margin-top: 0.5vw;
+    text-align: right;
+    font-size: 1.2vw;
+}
+#firstfooter{
+    padding: 0 2vw;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1vw;
+}
+#firstfooter a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#firstfooter .icon{
+    display: flex;
+    gap: 5px;
+}
+#firstfooter .icon .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(131, 188, 171);
+}
+
+#skillpage{
+    /* position: relative; */
+    padding-right: 10vw;
+    padding-top: 100px;
+    background-color: black;
+    width: 100%;
+    /* height: 100vh; */
+}
+#skillpage #skillbox{
+    position: relative;
+    width: 100%;
+    padding: 4vw 3vh;
+    border-top: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#skillpage #skillbox h1{
+    text-transform: uppercase;
+    font-size: 8vw;
+    opacity: 0.7;
+}
+#skillpage .skilllast{
+    border-bottom: 2px solid grey;
+}
+#skillbox img{
+    /* display: none; */
+    opacity: 0;
+    position: absolute;
+    /* top: -50%; */
+    z-index: 999;
+    width: 20%;
+    height: 100%;
+}
+#about{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 10vw 5vw;
+    padding-left: 40vw;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+#about img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+#textabout{
+    width: 25rem;
+    /* background-color: rebeccapurple; */
+}
+#textabout h5{
+    opacity: 0.6;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+#textabout a{
+    margin-left: 20px;
+    padding: 13px 20px;
+    border: 2px solid grey;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+#linkedin{
+    text-transform: uppercase;
+    background-color: black;
+    padding: 20px 20px;
+    padding-bottom: 7vw;
+}
+#linkedin a{
+    color: white;
+    text-decoration: none;
+}
+#linkedin h5{
+    font-size: 14px;
+    margin-top: 10px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: black;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#leftfooter{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+#rightfooter{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
